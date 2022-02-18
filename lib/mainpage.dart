@@ -74,6 +74,7 @@ class _MainContentState extends State<MainContent> {
                     controller: _scrollController,
                     children: List.generate(scrollcount, (index) {
                       return Card(
+                        color: Colors.orange[200],
                         child: InkWell(
                           onTap: () => {
                             _roomDetails(index),
